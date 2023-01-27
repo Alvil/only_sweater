@@ -4,11 +4,7 @@ import { Card, Container } from "react-bootstrap";
 
 export const AboutSection: FC = () => {
   return (
-    <Container
-      fluid
-      className="d-flex justify-content-center"
-      style={{ paddingTop: "15rem", paddingBottom: "15rem" }}
-    >
+    <Container fluid className="d-flex justify-content-center">
       <img src="sweater_4.png" alt="sweater_image_5" height={455} />
       <div style={{ maxWidth: "300px" }}>
         <Card className="border-0">

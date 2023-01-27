@@ -24,7 +24,7 @@ export const ItemsSection: FC = () => {
   return (
     <Container
       fluid
-      style={{ paddingBottom: "15rem", width: "18rem" }}
+      style={{ width: "18rem" }}
       className="d-flex flex-column align-items-center"
     >
       <h3>Items</h3>

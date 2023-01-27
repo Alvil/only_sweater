@@ -12,9 +12,15 @@ export const LandingPage: FC = () => {
   return (
     <Layout>
       <Container fluid>
-        <SloganSection />
-        <AboutSection />
-        <ItemsSection />
+        <section style={{ paddingBottom: "10rem" }}>
+          <SloganSection />
+        </section>
+        <section style={{ paddingBottom: "10rem" }}>
+          <AboutSection />
+        </section>
+        <section style={{ paddingBottom: "8rem" }}>
+          <ItemsSection />
+        </section>
         <section style={{ paddingBottom: "5rem" }}>
           <InfoSection />
         </section>
