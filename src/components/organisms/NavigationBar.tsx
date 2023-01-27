@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import styles from "styles/components/NavigationBar.module.scss";
+import { FbLogo, InstagramLogo, OnlySweatersLogo } from "assets";
 
 export const NavigationBar: FC = () => {
   // TODO: fix navbar on sm display
@@ -8,7 +9,7 @@ export const NavigationBar: FC = () => {
     <Navbar collapseOnSelect expand="md" variant="light">
       <Container fluid>
         <Navbar.Brand href="/" className="text-center">
-          <img src="/logo.svg" alt="logo" />
+          <OnlySweatersLogo />
           <span className={styles.tag_line}>We sell only sweaters</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -30,10 +31,10 @@ export const NavigationBar: FC = () => {
               Press
             </Nav.Link>
             <Nav.Link href="#instagram" className="ms-5">
-              <img src="/instagram_logo.svg" alt="instagram_logo" />
+              <InstagramLogo />
             </Nav.Link>
             <Nav.Link href="#fb">
-              <img src="/fb_logo.svg" alt="fb_logo" />
+              <FbLogo />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
