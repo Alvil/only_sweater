@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Container } from "react-bootstrap";
-import { Slogan } from "components/organisms";
+import { About, Slogan } from "components/organisms";
 import { Layout } from "components/templates";
 
 export const LandingPage: FC = () => {
@@ -8,6 +8,7 @@ export const LandingPage: FC = () => {
     <Layout>
       <Container fluid>
         <Slogan />
+        <About />
       </Container>
     </Layout>
   );
