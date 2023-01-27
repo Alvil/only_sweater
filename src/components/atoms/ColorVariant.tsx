@@ -6,7 +6,7 @@ interface Props {
   className?: string;
 }
 
-export const ColorPallete: FC<Props> = ({ borderColor, fill, className }) => {
+export const ColorVariant: FC<Props> = ({ borderColor, fill, className }) => {
   const style = {
     width: "14px",
     height: "14px",

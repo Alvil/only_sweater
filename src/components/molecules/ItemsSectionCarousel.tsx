@@ -1,6 +1,6 @@
 import React, { FC, ReactNode, useState, useEffect } from "react";
 import { Card, Carousel } from "react-bootstrap";
-import { ColorPallete } from "components/atoms";
+import { ColorVariant } from "components/atoms";
 
 interface Props {
   sweaters: {
@@ -24,7 +24,7 @@ export const ItemsSectionCarousel: FC<Props> = ({ sweaters }) => {
                 <Card.Text className="d-flex">
                   {sweater.variants.map((variant) => (
                     <span className="pe-1" key={variant}>
-                      <ColorPallete fill={variant} borderColor="#D9D9D9" />
+                      <ColorVariant fill={variant} borderColor="#D9D9D9" />
                     </span>
                   ))}
                 </Card.Text>
