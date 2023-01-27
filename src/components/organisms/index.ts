@@ -1,3 +1,3 @@
-export * from "./About";
+export * from "./AboutSection";
 export * from "./NavigationBar";
-export * from "./Slogan";
+export * from "./SloganSection";

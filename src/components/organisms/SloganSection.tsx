@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { Container } from "react-bootstrap";
 import styles from "styles/components/Slogan.module.scss";
 
-export const Slogan: FC = () => {
+export const SloganSection: FC = () => {
   // TODO: fix slogan postioning
   return (
     <>
