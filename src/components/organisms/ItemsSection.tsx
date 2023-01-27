@@ -27,7 +27,7 @@ export const ItemsSection: FC = () => {
       style={{ width: "18rem" }}
       className="d-flex flex-column align-items-center"
     >
-      <h3>Items</h3>
+      <h3 className="text-dark libre-baskerville">Items</h3>
       <ItemsSectionCarousel sweaters={sweaters} />
       <ViewMore href="/items" />
     </Container>

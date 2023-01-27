@@ -19,7 +19,7 @@ const announcements = [
 export const InfoSection: FC = () => {
   return (
     <Container>
-      <span className="fs-2">Info</span>
+      <span className="fs-2 text-dark libre-baskerville">Info</span>
       {announcements?.map((announcement) => (
         <React.Fragment key={announcement.id}>
           <InfoSectionAnnouncement announcement={announcement} />

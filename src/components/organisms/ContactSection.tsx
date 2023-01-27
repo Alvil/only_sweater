@@ -28,7 +28,7 @@ export const ContactSection: FC = () => {
   return (
     <Container className="w-50">
       <div className="text-center mb-3">
-        <span className="fs-2">Contact</span>
+        <span className="fs-2 text-dark libre-baskerville">Contact</span>
       </div>
       <Form
         onSubmit={(e) => {

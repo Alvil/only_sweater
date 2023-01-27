@@ -7,7 +7,7 @@ export const NavigationBar: FC = () => {
   // TODO: fix navbar on sm display
   return (
     <Navbar collapseOnSelect expand="md" variant="light">
-      <Container fluid>
+      <Container fluid className="libre-baskerville">
         <Navbar.Brand href="/" className="text-center">
           <OnlySweatersLogo />
           <span className={styles.tag_line}>We sell only sweaters</span>

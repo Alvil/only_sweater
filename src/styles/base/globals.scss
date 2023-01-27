@@ -1,0 +1,11 @@
+@import '../base/variables.scss';
+@import 'https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap';
+
+html, body {
+    font-size: 16px;
+    color: $gray1;
+}
+
+.libre-baskerville {
+    font-family: 'Libre Baskerville', serif;
+}

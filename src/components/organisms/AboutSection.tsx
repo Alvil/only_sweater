@@ -8,7 +8,9 @@ export const AboutSection: FC = () => {
       <img src="sweater_4.png" alt="sweater_image_5" height={455} />
       <div style={{ maxWidth: "300px" }}>
         <Card className="border-0">
-          <Card.Title className="text-center">About</Card.Title>
+          <Card.Title className="text-center text-dark libre-baskerville">
+            About
+          </Card.Title>
           <Card.Text>
             着るだけで心が満たされていくそんなセーターを作るために
             セーターだけを販売するOnly Sweaterを立ち上げました。

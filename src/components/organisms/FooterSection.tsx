@@ -8,13 +8,12 @@ export const FooterSection: FC = () => {
   const links = ["about", "item", "shop", "info", "press"];
 
   return (
-    <Container className="w-75 d-flex justify-content-between align-items-center">
+    <Container className="w-75 d-flex justify-content-between align-items-center libre-baskerville">
       <div>
         <img
           src="only_sweater_slogan.png"
           alt="sweater_slogan"
           style={{ width: "200px" }}
-          // className={styles.sweater_slogan}
         />
         We sell only sweaters
       </div>

@@ -3,12 +3,12 @@ import { Container } from "react-bootstrap";
 
 export const SubFooterSection: FC = () => {
   return (
-    <Container className="w-75">
+    <Container className="w-75 libre-baskerville">
       <div className="border-bottom mb-1 pb-4">
         <div className="pb-1">Tel: 0312345678</div>
         <div>Email: onlysweater@jp.com</div>
       </div>
-      <div className="text-center m-3">
+      <div className="text-center m-3" style={{ fontSize: ".85em" }}>
         <span>2022@only sweater</span>
       </div>
     </Container>
