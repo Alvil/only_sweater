@@ -1,0 +1,8 @@
+@import '../base/variables.scss';
+
+.text_link {
+  margin: 1em;
+  text-decoration: none;
+  color: $gray1;
+  text-transform: capitalize;
+}

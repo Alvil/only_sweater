@@ -1,4 +1,4 @@
-export const FbLogo = () => {
+export const FacebookLogo = () => {
   return (
     <svg
       width="24"

@@ -4,6 +4,7 @@ import {
   AboutSection,
   BottomSloganSection,
   ContactSection,
+  FooterSection,
   InfoSection,
   ItemsSection,
   SloganSection,
@@ -32,6 +33,9 @@ export const LandingPage: FC = () => {
       </Container>
       <section style={{ paddingBottom: "8rem" }}>
         <BottomSloganSection />
+      </section>
+      <section style={{ paddingBottom: "8rem" }}>
+        <FooterSection />
       </section>
     </Layout>
   );

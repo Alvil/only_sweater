@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import styles from "styles/components/NavigationBar.module.scss";
-import { FbLogo, InstagramLogo, OnlySweatersLogo } from "../atoms";
+import { FacebookLogo, InstagramLogo, OnlySweatersLogo } from "../atoms";
 
 export const NavigationBar: FC = () => {
   // TODO: fix navbar on sm display
@@ -34,7 +34,7 @@ export const NavigationBar: FC = () => {
               <InstagramLogo />
             </Nav.Link>
             <Nav.Link href="#fb">
-              <FbLogo />
+              <FacebookLogo />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

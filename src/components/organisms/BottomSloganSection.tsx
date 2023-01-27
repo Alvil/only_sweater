@@ -11,7 +11,7 @@ export const BottomSloganSection: FC = () => {
       />
       <img
         src="only_sweater_slogan_full.png"
-        alt="sweater_room"
+        alt="only_sweater_slogan"
         className={styles.sweater_slogan}
       />
     </div>
