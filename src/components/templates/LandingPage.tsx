@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { Container } from "react-bootstrap";
 import {
   AboutSection,
+  InfoSection,
   ItemsSection,
   SloganSection,
 } from "components/organisms";
@@ -14,6 +15,9 @@ export const LandingPage: FC = () => {
         <SloganSection />
         <AboutSection />
         <ItemsSection />
+        <section style={{ paddingBottom: "5rem" }}>
+          <InfoSection />
+        </section>
       </Container>
     </Layout>
   );
