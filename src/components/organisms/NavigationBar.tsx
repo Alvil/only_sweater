@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import styles from "styles/components/NavigationBar.module.scss";
 
 export const NavigationBar: FC = () => {
+  // TODO: fix navbar on sm display
   return (
     <Navbar collapseOnSelect expand="md" variant="light">
       <Container fluid>

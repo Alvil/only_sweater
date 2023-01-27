@@ -1,6 +1,11 @@
-import React, { FC } from "react";
+import React, { FC, HTMLProps } from "react";
 import { NavigationBar } from "components/organisms";
 
-export const Layout: FC = () => {
-  return <NavigationBar />;
+export const Layout: FC<HTMLProps<HTMLDivElement>> = (props) => {
+  return (
+    <>
+      <NavigationBar />
+      {props.children}
+    </>
+  );
 };
