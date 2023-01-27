@@ -31,12 +31,6 @@ export const LandingPage: FC = () => {
           <ContactSection />
         </section>
       </Container>
-      <section style={{ paddingBottom: "8rem" }}>
-        <BottomSloganSection />
-      </section>
-      <section style={{ paddingBottom: "8rem" }}>
-        <FooterSection />
-      </section>
     </Layout>
   );
 };
