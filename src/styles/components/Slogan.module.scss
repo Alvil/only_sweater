@@ -1,0 +1,49 @@
+@import '../base/variables.scss';
+
+.slogan_col_1 {
+  width: 33.33%;
+}
+
+.slogan_sweater_1 {
+  width: 100%;
+  transform: translate(3%, 50px);
+}
+
+.slogan_col_2 {
+  width: 33.33%;
+  position: relative;
+}
+
+.sweater_slogan {
+  width: 100%;
+  transform: translateX(12px);
+}
+
+.slogan_sweater_2 {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  left: 10px;
+  top: 120px;
+}
+
+.slogan_col_3 {
+  width: 33.33%;
+  
+}
+
+.slogan_sweater_3 {
+  width: 100%;
+  transform: translate(-3%, 20px);
+}
+
+.separator {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  background-color: $orange1;
+  position: absolute;
+  transform: translateX(-12px);
+}

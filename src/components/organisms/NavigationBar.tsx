@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import styles from "styles/components/NavigationBar.module.scss";
-import { FbLogo, InstagramLogo, OnlySweatersLogo } from "assets";
+import { FbLogo, InstagramLogo, OnlySweatersLogo } from "../atoms";
 
 export const NavigationBar: FC = () => {
   // TODO: fix navbar on sm display
