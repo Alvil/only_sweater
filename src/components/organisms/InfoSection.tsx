@@ -25,7 +25,7 @@ export const InfoSection: FC = () => {
           <InfoSectionAnnouncement announcement={announcement} />
         </React.Fragment>
       ))}
-      <section className="text-center">
+      <section className="text-center mt-4">
         <ViewMore href="/info" />
       </section>
     </Container>
