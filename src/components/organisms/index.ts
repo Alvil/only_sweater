@@ -6,3 +6,4 @@ export * from "./InfoSection";
 export * from "./ItemsSection";
 export * from "./NavigationBar";
 export * from "./SloganSection";
+export * from "./SubFooterSection";
