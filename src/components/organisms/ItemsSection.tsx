@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Carousel, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { ItemsSectionCarousel } from "components/molecules";
 import { ViewMore } from "components/atoms";
 

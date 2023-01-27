@@ -2,9 +2,7 @@ import React, { FC } from "react";
 import { Container } from "react-bootstrap";
 import {
   AboutSection,
-  BottomSloganSection,
   ContactSection,
-  FooterSection,
   InfoSection,
   ItemsSection,
   SloganSection,
