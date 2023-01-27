@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { Container } from "react-bootstrap";
 import styles from "styles/components/BottomSlogan.module.scss";
 
 export const BottomSloganSection: FC = () => {
