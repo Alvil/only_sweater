@@ -1,9 +1,11 @@
 @import '../base/variables.scss';
 @import 'https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap';
 
 html, body {
     font-size: 16px;
     color: $gray1;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .libre-baskerville {
