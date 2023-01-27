@@ -1,3 +1,4 @@
+import { ViewMore } from "components/atoms";
 import React, { FC } from "react";
 import { Card, Container } from "react-bootstrap";
 
@@ -22,9 +23,9 @@ export const AboutSection: FC = () => {
             細部までこだわって作りました。
           </Card.Text>
           <Card.Text>あなたの冬が特別なものになりますように...</Card.Text>
-          <Card.Link href="/about" className="">
-            View more→
-          </Card.Link>
+          <Card.Text>
+            <ViewMore href="/about" />
+          </Card.Text>
         </Card>
       </div>
     </Container>
