@@ -39,19 +39,6 @@ export const ContactSection: FC = () => {
         <section className="d-flex mb-3">
           <Form.Group
             className="w-50 me-3"
-            controlId="firstName"
-            onChange={(e) => {
-              handleChangeInput(
-                (e.target as HTMLInputElement).value,
-                setFirstName
-              );
-            }}
-          >
-            <Form.Label>姓</Form.Label>
-            <Form.Control type="text" placeholder="例）太郎" />
-          </Form.Group>
-          <Form.Group
-            className="w-50 ms-3"
             controlId="lastName"
             onChange={(e) => {
               handleChangeInput(
@@ -61,6 +48,19 @@ export const ContactSection: FC = () => {
             }}
           >
             <Form.Label>姓</Form.Label>
+            <Form.Control type="text" placeholder="例）太郎" />
+          </Form.Group>
+          <Form.Group
+            className="w-50 ms-3"
+            controlId="firstName"
+            onChange={(e) => {
+              handleChangeInput(
+                (e.target as HTMLInputElement).value,
+                setFirstName
+              );
+            }}
+          >
+            <Form.Label>名</Form.Label>
             <Form.Control type="text" placeholder="例）太郎" />
           </Form.Group>
         </section>
