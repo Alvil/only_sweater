@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Container } from "react-bootstrap";
 import styles from "styles/components/SubFooter.module.scss";
-import { FacebookLogo, InstagramLogo } from "components/atoms";
+import { FacebookIcon, InstagramIcon } from "components/atoms";
 import { capitalize } from "utils/helpers";
 
 export const SubFooterSection: FC = () => {
@@ -30,10 +30,10 @@ export const SubFooterSection: FC = () => {
               </a>
             ))}
             <a href="#instagram" className="ms-5">
-              <InstagramLogo />
+              <InstagramIcon />
             </a>
             <a href="#facebook" className="m-3">
-              <FacebookLogo />
+              <FacebookIcon />
             </a>
           </div>
         </div>
@@ -64,10 +64,10 @@ export const SubFooterSection: FC = () => {
             ))}
             <div className="col-4">
               <a href="#instagram" className="me-2">
-                <InstagramLogo />
+                <InstagramIcon />
               </a>
               <a href="#facebook">
-                <FacebookLogo />
+                <FacebookIcon />
               </a>
             </div>
           </div>

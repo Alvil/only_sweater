@@ -1,4 +1,4 @@
-export const InstagramLogo = () => {
+export const InstagramIcon = () => {
   return (
     <svg
       width="24"
