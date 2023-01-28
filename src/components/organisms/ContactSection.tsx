@@ -6,6 +6,7 @@ import React, {
   useState,
 } from "react";
 import { Button, Container, Form } from "react-bootstrap";
+import styles from "styles/components/ContactSection.module.scss";
 
 export const ContactSection: FC = () => {
   const [firstName, setFirstName] = useState<string>("");
@@ -26,7 +27,7 @@ export const ContactSection: FC = () => {
   };
 
   return (
-    <Container className="w-50">
+    <Container className={styles.contact_container}>
       <div className="text-center mb-3">
         <span className="fs-2 text-dark libre-baskerville">Contact</span>
       </div>
@@ -85,7 +86,7 @@ export const ContactSection: FC = () => {
           <textarea className="form-control" rows={5} />
         </Form.Group>
 
-        <div className="text-center">
+        <div className={styles.button_container}>
           <Button
             variant="primary"
             type="submit"
