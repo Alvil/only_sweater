@@ -11,7 +11,7 @@ export const Layout: FC<HTMLProps<HTMLDivElement>> = (props) => {
     <>
       <NavigationBar />
       {props.children}
-      <section style={{ paddingBottom: "8rem" }}>
+      <section style={{ paddingBottom: "3rem" }}>
         <BottomSloganSection />
       </section>
       <section style={{ paddingBottom: "8rem" }}>

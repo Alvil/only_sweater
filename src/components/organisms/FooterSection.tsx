@@ -8,7 +8,7 @@ export const FooterSection: FC = () => {
   const links = ["about", "item", "shop", "info", "press"];
 
   return (
-    <Container className="w-75 d-flex justify-content-between align-items-center libre-baskerville ps-5 pe-5">
+    <Container className="d-flex justify-content-between align-items-center libre-baskerville">
       <div>
         <img
           src="only_sweater_slogan.png"
@@ -17,7 +17,7 @@ export const FooterSection: FC = () => {
         />
         We sell only sweaters
       </div>
-      <div style={{ fontSize: "1.15em", color: "#505B5F" }}>
+      <div>
         {links.map((link) => (
           <a href={`/${link}`} className={styles.text_link}>
             {capitalize(link)}
