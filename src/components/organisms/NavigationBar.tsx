@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import styles from "styles/components/NavigationBar.module.scss";
 import { FacebookIcon, InstagramIcon, OnlySweatersLogo } from "../atoms";
 

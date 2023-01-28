@@ -65,7 +65,7 @@
   &::before {
     @media (max-width: $md-screen) {
       content: '';
-      background: url('../../../public/sweater_2.png') 
+      background: url('../../../public/sweater_2.png')
           no-repeat center center/cover;
       position: absolute;
       opacity: 0.25;
