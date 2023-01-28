@@ -8,9 +8,9 @@ export const SubFooterSection: FC = () => {
   const links = ["about", "item", "shop", "info", "press"];
 
   return (
-    <Container className="libre-baskerville">
+    <Container className="w-75 libre-baskerville">
       <div
-        className="d-flex justify-content-between align-items-center"
+        className="d-flex justify-content-between align-items-center px-5"
         style={{ paddingBottom: "8rem" }}
       >
         <div>
@@ -35,15 +35,13 @@ export const SubFooterSection: FC = () => {
           </a>
         </div>
       </div>
-      <Container className="w-75">
-        <div className="border-bottom mb-1 pb-4">
-          <div className="pb-1">Tel: 0312345678</div>
-          <div>Email: onlysweater@jp.com</div>
-        </div>
-        <div className="text-center m-3" style={{ fontSize: ".85em" }}>
-          <span>2022@only sweater</span>
-        </div>
-      </Container>
+      <div className="border-bottom mb-1 pb-4">
+        <div className="pb-1">Tel: 0312345678</div>
+        <div>Email: onlysweater@jp.com</div>
+      </div>
+      <div className="text-center m-3" style={{ fontSize: ".85em" }}>
+        <span>2022@only sweater</span>
+      </div>
     </Container>
   );
 };
