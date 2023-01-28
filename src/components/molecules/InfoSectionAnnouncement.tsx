@@ -1,6 +1,5 @@
-import React, { FC, ReactNode, useState, useEffect } from "react";
-import { Card, Carousel } from "react-bootstrap";
-import { ColorVariant, InfoButton } from "components/atoms";
+import React, { FC } from "react";
+import { InfoButton } from "components/atoms";
 import { DateTime } from "luxon";
 
 interface Props {

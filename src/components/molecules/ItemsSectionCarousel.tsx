@@ -1,4 +1,4 @@
-import React, { FC, ReactNode, useState, useEffect } from "react";
+import React, { FC } from "react";
 import { Card, Carousel } from "react-bootstrap";
 import { ColorVariant } from "components/atoms";
 
@@ -30,7 +30,7 @@ export const ItemsSectionCarousel: FC<Props> = ({ sweaters }) => {
                 </Card.Text>
                 <Card.Text>{sweater.description}</Card.Text>
                 <Card.Text className="text-end pe-2">
-                  ¥ {sweater.price.toLocaleString()}
+                  ¥ {sweater.price?.toLocaleString() || 0}
                 </Card.Text>
               </Card.Body>
             </Card>
