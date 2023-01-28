@@ -56,7 +56,7 @@ export const SubFooterSection: FC = () => {
           <div className={styles.slogan_text}>We sell only sweaters</div>
           <div className={styles.links_wrapper}>
             {links.map((link) => (
-              <div className="col-4">
+              <div className="col-4 pb-3">
                 <a href={`/${link}`} className={styles.text_link}>
                   {capitalize(link)}
                 </a>
