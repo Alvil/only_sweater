@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Container } from "react-bootstrap";
-import styles from "styles/components/Footer.module.scss";
+import styles from "styles/components/SubFooter.module.scss";
 import { FacebookLogo, InstagramLogo } from "components/atoms";
 import { capitalize } from "utils/helpers";
 

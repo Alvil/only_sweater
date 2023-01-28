@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import styles from "styles/components/BottomSlogan.module.scss";
+import styles from "styles/components/Footer.module.scss";
 
 export const FooterSection: FC = () => {
   return (

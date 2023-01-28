@@ -48,7 +48,7 @@
   z-index: 2;
   transform: translate(-12px, -70%);
 
-  @media (min-width: $wide-screen) {
+  @media (min-width: $xxxl-screen) {
     transform: translate(-12px, -110%);
   }
 }

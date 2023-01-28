@@ -1,9 +1,7 @@
-@import '../base/variables.scss';
-
-.text_link {
-  margin: .75em;
-  text-decoration: none;
-  color: $gray1;
-  text-transform: capitalize;
-  font-size: 1rem;
+.sweater_slogan {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 31.3%;
+  opacity: 50%;
 }
