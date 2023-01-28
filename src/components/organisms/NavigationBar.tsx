@@ -4,7 +4,6 @@ import styles from "styles/components/NavigationBar.module.scss";
 import { FacebookIcon, InstagramIcon, OnlySweatersLogo } from "../atoms";
 
 export const NavigationBar: FC = () => {
-  // TODO: fix navbar on sm display
   return (
     <Navbar
       collapseOnSelect
@@ -37,12 +36,24 @@ export const NavigationBar: FC = () => {
           <Nav.Link href="/press" className={styles.link}>
             Press
           </Nav.Link>
-          <Nav.Link href="#instagram" className="ms-5">
+          <Nav.Item className={styles.nav_item}>Tel: 0312345678</Nav.Item>
+          <Nav.Item className={styles.nav_item}>
+            Email: onlysweater@jp.com
+          </Nav.Item>
+          <Nav.Link href="#instagram" className={styles.link_icon}>
             <InstagramIcon />
           </Nav.Link>
-          <Nav.Link href="#fb">
+          <Nav.Link href="#fb" className={styles.link_icon}>
             <FacebookIcon />
           </Nav.Link>
+          <div className={styles.narrow_screen_icons}>
+            <Nav.Link href="#instagram">
+              <InstagramIcon />
+            </Nav.Link>
+            <Nav.Link href="#fb">
+              <FacebookIcon />
+            </Nav.Link>
+          </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
