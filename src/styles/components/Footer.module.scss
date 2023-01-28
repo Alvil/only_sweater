@@ -1,7 +1,31 @@
+@import '../base/variables.scss';
+
+.wide_screen_wrapper {
+  position: relative;
+
+  @media (max-width: $md-screen) {
+    display: none;
+  }
+}
+
+.narrow_screen_wrapper {
+  position: relative;
+
+  @media (min-width: $md-screen) {
+    display: none;
+  }
+}
+
 .sweater_slogan {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 31.3%;
   opacity: 50%;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%, 13%);
+
+  @media (min-width: $md-screen) {
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 31.3%;
+  }
 }
