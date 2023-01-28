@@ -1,38 +1,58 @@
 @import '../base/variables.scss';
 
-.slogan_col_1 {
+.wide_screen_wrapper {
+  @media (max-width: $md-screen) {
+    display: none;
+  }
+}
+
+.narrow_screen_wrapper {
+  text-align: center;
+  @media (min-width: $md-screen) {
+    display: none;
+  }
+}
+
+.side_column {
   width: 35%;
 }
 
-.slogan_sweater_1 {
-  width: 100%;
-  transform: translate(3%, 6%);
-}
-
-.slogan_col_2 {
+.middle_column {
   width: 28%;
   position: relative;
 }
 
+.sweater_1 {
+  width: 100%;
+  transform: translate(3%, 6%);
+}
+
 .sweater_slogan {
   width: 80%;
-  transform: translateX(14%);
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+
+  @media (min-width: $md-screen) {
+    padding-top: 0;
+    padding-bottom: 0;
+    transform: translateX(14%);
+  }
 }
 
-.slogan_sweater_2 {
-  width: 100%;
-  z-index: 1;
-  position: relative;
-  left: 2%;
-  // top: 120px;
+.sweater_2 {
+  max-width: 100vw;
+  transform: translateX(-10px);
+
+  @media (min-width: $md-screen) {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    left: 2%;
+    transform: translateX(0);
+  }
 }
 
-.slogan_col_3 {
-  width: 35%;
-  
-}
-
-.slogan_sweater_3 {
+.sweater_3 {
   width: 100%;
   transform: translate(-3%, 20px);
   height: 95%
@@ -50,5 +70,9 @@
 
   @media (min-width: $xxxl-screen) {
     transform: translate(-12px, -110%);
+  }
+
+  @media (max-width: $md-screen) {
+    transform: translateX(-10px);
   }
 }
