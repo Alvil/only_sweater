@@ -18,18 +18,28 @@ const sweaters = [
     description: "ゆったりしたセーター",
     variants: ["#FFFFFF", "#D9D9D9", "#B8B8B8", "#F5B05F", "#B5D3F7"],
   },
+  {
+    id: 3,
+    src: "sweater_5.png",
+    price: 10000,
+    description: "ゆったりしたセーター",
+    variants: ["#FFFFFF", "#D9D9D9", "#B8B8B8", "#F5B05F", "#B5D3F7"],
+  },
+  {
+    id: 4,
+    src: "sweater_5.png",
+    price: 10000,
+    description: "ゆったりしたセーター",
+    variants: ["#FFFFFF", "#D9D9D9", "#B8B8B8", "#F5B05F", "#B5D3F7"],
+  },
 ];
 
 export const ItemsSection: FC = () => {
   return (
-    <Container
-      fluid
-      style={{ width: "18rem" }}
-      className="d-flex flex-column align-items-center"
-    >
+    <Container fluid className="d-flex flex-column align-items-center">
       <h3 className="text-dark libre-baskerville">Items</h3>
       <ItemsSectionCarousel sweaters={sweaters} />
-      <ViewMore href="/items" />
+      <ViewMore href="/item" />
     </Container>
   );
 };
