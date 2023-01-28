@@ -7,7 +7,7 @@ export const SloganSection: FC = () => {
   return (
     <>
       <Container fluid>
-        <div className="d-flex flex-row">
+        <div className="d-flex flex-row justify-content-center">
           <div className={styles.slogan_col_1}>
             <img
               src="sweater_1.png"
@@ -21,11 +21,11 @@ export const SloganSection: FC = () => {
               src="only_sweater_slogan.png"
               alt="sweater_2"
             />
-            {/* <img
+            <img
               className={styles.slogan_sweater_2}
               src="sweater_2.png"
               alt="sweater_2"
-            /> */}
+            />
           </div>
           <div className={styles.slogan_col_1}>
             <img
