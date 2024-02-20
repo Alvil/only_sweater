@@ -6,4 +6,5 @@ const Index: NextPage = () => {
   return <LandingPage />;
 };
 // ignore;
+// test 2
 export default Index;
